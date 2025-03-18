@@ -1,29 +1,29 @@
-﻿//var carros = new[] { "BMW", "Mercedes", "Audi", "Porsche", "Porsche", "Audi" };
+﻿var carros = new[] { "BMW", "Mercedes", "Audi", "Porsche", "Porsche", "Audi" };
 
-//count 
-//var contadorNormal = carros.Count();
+//count
+var contadorNormal = carros.Count();
 
 //countBy
-//var contador = carros.CountBy(x => x);
+var contador = carros.CountBy(x => x);
 
-//foreach (var item in contador)
-//{
-//    Console.WriteLine($"carro:{item.Key}, Quantidade{item.Value}!");
-//}
-
-
+foreach (var item in contador)
+{
+    Console.WriteLine($"carro:{item.Key}, Quantidade{item.Value}!");
+}
 
 
-//Index  -- antes usava o elementAt
-//var indiceitem = carros.Index();
-
-//foreach (var item in indiceitem)
-//{
-//    Console.WriteLine($"Indice:{item.Index} - Valor:{item.Item}");
-//}
 
 
-//Console.WriteLine("Hello, World!");
+//Index-- antes usava o elementAt
+var indiceitem = carros.Index();
+
+foreach (var item in indiceitem)
+{
+    Console.WriteLine($"Indice:{item.Index} - Valor:{item.Item}");
+}
+
+
+Console.WriteLine("Hello, World!");
 
 
 //AggregateBy
